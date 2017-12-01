@@ -13,8 +13,8 @@ public class sparkserverw implements Route {
         String a = request.queryParams("guideid");
 //        String a  = request.headers("guideid");
 //        a.add(obj);
-        System.out.println(a);
-//        Thread.sleep(20);
+//        System.out.println(a);
+        Thread.sleep(20);
         return "hello" + a;
     }
 }
