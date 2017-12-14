@@ -17,7 +17,7 @@ public class getRequest implements Callable {
     public Long call() throws Exception {
         HttpClient httpClient = new HttpClient();
         httpClient.start();
-
+        String a = "dddd";
         Long start = System.currentTimeMillis();
         ContentResponse response = httpClient.newRequest(url)
                 .method(HttpMethod.GET)

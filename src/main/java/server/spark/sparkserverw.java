@@ -15,6 +15,6 @@ public class sparkserverw implements Route {
 //        a.add(obj);
 //        System.out.println(a);
         Thread.sleep(20);
-        return "hello" + a;
+        return 200;
     }
 }
